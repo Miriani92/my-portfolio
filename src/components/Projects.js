@@ -6,9 +6,7 @@ const Projects = () => {
   return (
     <section className="main-section">
       <div className="main-container">
-        <h3 style={{ textAlign: "center", paddingTop: "60px" }}>
-          Some of my projects
-        </h3>
+        <h3 style={{ textAlign: "center", paddingTop: "60px" }}>My projects</h3>
         <div className="post-wrapper">
           {posts.map((post) => {
             const { id, img, title, text, link } = post;

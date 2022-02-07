@@ -55,7 +55,7 @@ Global Styles
 }
 body {
   font-family: "Roboto", sans-serif;
-  background: var(--clr-grey-10);
+  background: rgb(238, 245, 236);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -140,18 +140,18 @@ p {
     font-family: Yeseva One;
     font-weight: 400;
     font-size: 1.1rem;
-    color: var(--clr-primary-5);
+    color: black;
   }
   .header > button {
     display: none;
   }
   .link {
     padding: 1rem;
-    color: var(--clr-primary-5);
+    color: black;
     transition: var(--transition);
   }
   .link:hover {
-    background-color: var(--clr-grey-2);
+    background-color: rgb(154, 146, 228);
   }
   /* end of the navbar min 992*/
   /* start of the hero */
@@ -287,11 +287,12 @@ p {
     font-size: 14px;
   }
   .submit-btn {
+    cursor: pointer;
     margin-top: 10px;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: cyan;
+    background-color: rgb(117, 105, 224);
     border: none;
   }
 
@@ -308,9 +309,10 @@ p {
     border-color: transparent;
     transition: var(--transition);
     cursor: pointer;
+    color: rgb(117, 105, 224);
   }
   .header > button:hover {
-    color: var(--clr-primary-1);
+    color: rgb(117, 105, 224);
     transform: rotate(90deg);
   }
   .nav-container {
@@ -334,7 +336,7 @@ p {
     font-family: Yeseva One;
     font-weight: 400;
     font-size: 1.1rem;
-    color: var(--clr-primary-5);
+    color: rgb(117, 105, 224);
   }
   .links-wrapper {
     display: flex;
@@ -344,7 +346,7 @@ p {
     top: 0;
     left: 0;
     height: 100%;
-    background-color: var(--clr-grey-3);
+    background-color: rgb(117, 105, 224);
     transform: translateX(-100%);
     transition: var(--transition);
   }
@@ -353,13 +355,13 @@ p {
   }
   .link {
     display: block;
-    color: var(--clr-primary-8);
+    color: black;
     padding: 2rem 0;
     text-align: center;
     transition: var(--transition);
   }
   .link:hover {
-    background-color: var(--clr-primary-1);
+    background-color: rgb(154, 146, 228);
   }
   /* end of the navbar max  992*/
   /* start of the hero */
@@ -391,7 +393,7 @@ p {
   .about-container {
     margin: 0 auto;
     max-width: var(--max-width);
-    background-color: wheat;
+    background-color: rgb(117, 105, 224);
     width: 90vw;
     border-radius: 10px;
     text-align: center;
@@ -484,11 +486,12 @@ p {
     font-size: 14px;
   }
   .submit-btn {
+    cursor: pointer;
     margin-top: 10px;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: cyan;
+    background-color: rgb(117, 105, 224);
     border: none;
   }
   /* end of the form sections */

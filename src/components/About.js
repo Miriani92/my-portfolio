@@ -15,7 +15,7 @@ const About = () => {
             discovered web development in my life a few years ago and since then
             I have been trying to acquire knowledge and grow as developer
           </p>
-          <h3>my expertise</h3>
+          <h3>What I Know</h3>
           <p className="paragraph">
             As i mentioned i'am front end developer primery focus on react,so i
             have good knowladge of<em> html css vanila javascript</em> , i like
