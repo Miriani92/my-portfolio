@@ -1,8 +1,8 @@
 :root {
-  --mainColor: #eaeaea;
+  --mainColor: #141526;
   --borderColor: #c1c1c1;
   /* dark shades of primary color*/
-  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-primary-1: #064458;
   --clr-primary-2: hsl(205, 77%, 27%);
   --clr-primary-3: hsl(205, 72%, 37%);
   --clr-primary-4: hsl(205, 63%, 48%);
@@ -55,8 +55,8 @@ Global Styles
 }
 body {
   font-family: "Roboto", sans-serif;
-  background: rgb(238, 245, 236);
-  color: var(--clr-grey-1);
+  background: var(--mainColor);
+  color: rgb(211, 225, 240);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -89,7 +89,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  color: rgb(211, 225, 240);
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -121,7 +121,7 @@ p {
   .nav-container {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(117, 105, 224);
+    background-color: #064458;
   }
   .nav-wrapper {
     width: 90vw;
@@ -140,18 +140,18 @@ p {
     font-family: Yeseva One;
     font-weight: 400;
     font-size: 1.1rem;
-    color: black;
+    color: rgb(211, 225, 240);
   }
   .header > button {
     display: none;
   }
   .link {
     padding: 1rem;
-    color: black;
+    color: rgb(211, 225, 240);
     transition: var(--transition);
   }
   .link:hover {
-    background-color: rgb(154, 146, 228);
+    background-color: rgb(14, 9, 59);
   }
   /* end of the navbar min 992*/
   /* start of the hero */
@@ -165,7 +165,8 @@ p {
     align-items: center;
     flex-direction: column;
   }
-  .home-contentwrapper > h3 {
+  .home-contentwrapper h3 {
+    color: rgb(211, 225, 240);
     text-align: center;
     width: 25rem;
     padding: 2rem;
@@ -183,7 +184,7 @@ p {
   .about-container {
     margin: 0 auto;
     max-width: var(--max-width);
-    background-color: rgb(117, 105, 224);
+    background-color: #064458;
     width: 90vw;
     border-radius: 10px;
   }
@@ -197,11 +198,11 @@ p {
 
   .paragraph {
     text-align: start;
-    color: black;
+    color: rgb(213, 219, 238);
   }
   .icons {
     border: transparent;
-    color: rgb(64, 152, 224);
+    color: rgb(211, 225, 240);
     cursor: pointer;
     padding: 10px;
     font-size: 20px;
@@ -222,7 +223,7 @@ p {
   /* start projects */
   .main-section {
     max-width: var(--max-width);
-    background-color: var(--mainColor);
+    background-color: #064458;
     margin: 0 auto;
     margin-top: 50px;
   }
@@ -287,13 +288,15 @@ p {
     font-size: 14px;
   }
   .submit-btn {
+    font-size: 17px;
     cursor: pointer;
     margin-top: 10px;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(117, 105, 224);
+    background-color: #064458;
     border: none;
+    color: rgb(211, 225, 240);
   }
 
   /* end  of form */
@@ -495,4 +498,12 @@ p {
     border: none;
   }
   /* end of the form sections */
+}
+.linkedin,
+.git {
+  color: rgb(211, 225, 240);
+}
+.linkedin:hover,
+.git:hover {
+  color: rgb(88, 73, 173);
 }

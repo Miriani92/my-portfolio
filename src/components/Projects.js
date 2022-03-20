@@ -9,8 +9,7 @@ const Projects = () => {
         <h3 style={{ textAlign: "center", paddingTop: "60px" }}>My projects</h3>
         <div className="post-wrapper">
           {posts.map((post) => {
-            const { id, img, title, text, link } = post;
-            return <Project key={id} {...post} />;
+            return <Project key={post.id} {...post} />;
           })}
         </div>
       </div>

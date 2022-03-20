@@ -1,6 +1,5 @@
 import React from "react";
 import { links } from "./Data";
-import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
 
@@ -15,9 +14,9 @@ const Navbar = () => {
     <nav className="nav-container">
       <div className="nav-wrapper">
         <div className="header">
-          <Link className="logo" to="/">
+          <a className="logo" href="/">
             <em>Miriani Tsintsadze</em>
-          </Link>
+          </a>
           <button className="button" onClick={navToggle}>
             <FaBars />
           </button>
@@ -26,9 +25,9 @@ const Navbar = () => {
           {links.map((link) => {
             const { id, url, text } = link;
             return (
-              <Link className="link" key={id} to={url} onClick={navToggle}>
+              <a className="link" key={id} href={url} onClick={navToggle}>
                 {text}
-              </Link>
+              </a>
             );
           })}
         </ul>

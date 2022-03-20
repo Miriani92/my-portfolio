@@ -10,7 +10,7 @@ const About = () => {
         <div classname="more-wrapper">
           <h3>more about me</h3>
           <p className="paragraph">
-            Hello I am front-end developer from georgia, I enjoy building web
+            Hello I am front-end developer from Georgia, I enjoy building web
             that is interactive, easy to use, beautiful, accessible to all , I
             discovered web development in my life a few years ago and since then
             I have been trying to acquire knowledge and grow as developer
@@ -31,10 +31,15 @@ const About = () => {
             <a
               href="https://www.linkedin.com/in/mirian-tsintsadze-277676227/"
               target="_blank"
+              className="linkedin"
             >
               <FontAwesomeIcon icon={faLinkedin} size="lg" />
             </a>
-            <a href="https://github.com/Miriani92" target="_blank">
+            <a
+              className="git"
+              href="https://github.com/Miriani92"
+              target="_blank"
+            >
               <FontAwesomeIcon icon={faGit} size="lg" />
             </a>
           </div>
