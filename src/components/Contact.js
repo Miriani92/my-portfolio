@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section className="section-container">
       <div className="main-container">
-        <h3 style={{ textAlign: "center", padding: "20px" }}>Get in Touch</h3>
+        <h4 style={{ textAlign: "center", padding: "20px" }}>Get in Touch</h4>
 
         <form action={email} method="POST" className="contact-form">
           <label>Name</label>

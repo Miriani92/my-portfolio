@@ -102,7 +102,7 @@ p {
     font-size: 1.75rem;
   }
   h4 {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   body {
     font-size: 1rem;
@@ -165,11 +165,11 @@ p {
     align-items: center;
     flex-direction: column;
   }
-  .home-contentwrapper h3 {
+  .home-contentwrapper h4 {
     color: rgb(211, 225, 240);
     text-align: center;
     width: 25rem;
-    padding: 2rem;
+    padding: 3rem;
   }
   .myImage {
     box-shadow: 1px 1px 28px 2px #000000;
@@ -234,7 +234,12 @@ p {
     padding: 60px;
     justify-items: center;
   }
+
+  .post-preview {
+    padding-top: 20px;
+  }
   .projectImage {
+    object-fit: cover;
     margin: 0 auto;
     width: 300px;
     height: 300px;
@@ -506,4 +511,7 @@ p {
 .linkedin:hover,
 .git:hover {
   color: rgb(88, 73, 173);
+}
+.post-seemore {
+  color: #c55e36;
 }

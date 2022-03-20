@@ -5,9 +5,10 @@ const Project = ({ img, title, text, link }) => {
     <div className="post">
       <img className="projectImage" src={img} alt="image" />
       <div className="post-preview">
-        <h6 className="post-title">{title}</h6>
-        <p className="post-intro"> {text} </p>
-        <a href={link}>See More</a>
+        <h4 className="post-title">{title}</h4>
+        <a href={link} className="post-seemore">
+          See More
+        </a>
       </div>
     </div>
   );

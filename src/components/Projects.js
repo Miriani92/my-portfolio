@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section className="main-section">
       <div className="main-container">
-        <h3 style={{ textAlign: "center", paddingTop: "60px" }}>My projects</h3>
+        <h4 style={{ textAlign: "center", paddingTop: "60px" }}>My projects</h4>
         <div className="post-wrapper">
           {posts.map((post) => {
             return <Project key={post.id} {...post} />;

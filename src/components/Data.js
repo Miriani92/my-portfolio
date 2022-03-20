@@ -1,6 +1,6 @@
-import img1 from "../images/staff.jpg";
-import img2 from "../images/reminder.jpg";
-import img3 from "../images/reminder.jpg";
+import img1 from "../images/portfolio.jpg";
+import img2 from "../images/beautyline.jpg";
+import img3 from "../images/food-order.jpg";
 export const links = [
   {
     id: 1,
@@ -27,22 +27,20 @@ export const posts = [
   {
     id: 1,
     img: img1,
-    title: "Staff Selector",
-    text: "Portfolio Project",
+    title: "Portfolio",
     link: "#",
   },
   {
     id: 2,
     img: img2,
-    title: "Reminder",
-    text: "slider Project",
+    title: "Beautyline",
+
     link: "#",
   },
   {
     id: 3,
     img: img3,
-    title: "Staff Selector",
-    text: "Reminder Project",
+    title: "Food Order App",
     link: "#",
   },
 ];

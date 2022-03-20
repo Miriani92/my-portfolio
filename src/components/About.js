@@ -8,14 +8,14 @@ const About = () => {
     <article className="about-container">
       <div className="about-wrapper">
         <div classname="more-wrapper">
-          <h3>more about me</h3>
+          <h4>more about me</h4>
           <p className="paragraph">
             Hello I am front-end developer from Georgia, I enjoy building web
             that is interactive, easy to use, beautiful, accessible to all , I
             discovered web development in my life a few years ago and since then
             I have been trying to acquire knowledge and grow as developer
           </p>
-          <h3>What I Know</h3>
+          <h4>What I Know</h4>
           <p className="paragraph">
             As i mentioned i'am front end developer primery focus on react,so i
             have good knowladge of<em> html css vanila javascript</em> , i like
@@ -25,7 +25,7 @@ const About = () => {
           </p>
         </div>
         <div className="searchSection">
-          <h3>you can find me</h3>
+          <h4>you can find me</h4>
           <img className="searchImage" src={searchImage} />
           <div className="icons">
             <a
