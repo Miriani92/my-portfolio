@@ -5,7 +5,7 @@ const Home = () => {
     <>
       <div className="home-contentwrapper">
         <img className="myImage" src={image} alt="myImage" />
-        <h4>hi my name is miriani and i'm front end web developer</h4>
+        <h4>Hi, my name is miriani and i'm front-end web developer</h4>
       </div>
     </>
   );

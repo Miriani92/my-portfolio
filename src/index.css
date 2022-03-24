@@ -166,6 +166,8 @@ p {
     flex-direction: column;
   }
   .home-contentwrapper h4 {
+    line-height: 30px;
+    word-spacing: 4px;
     color: rgb(211, 225, 240);
     text-align: center;
     width: 25rem;
@@ -317,10 +319,10 @@ p {
     border-color: transparent;
     transition: var(--transition);
     cursor: pointer;
-    color: rgb(117, 105, 224);
+    color: rgb(211, 225, 240);
   }
   .header > button:hover {
-    color: rgb(117, 105, 224);
+    color: rgb(211, 225, 240);
     transform: rotate(90deg);
   }
   .nav-container {
@@ -344,7 +346,7 @@ p {
     font-family: Yeseva One;
     font-weight: 400;
     font-size: 1.1rem;
-    color: rgb(117, 105, 224);
+    color: rgb(211, 225, 240);
   }
   .links-wrapper {
     display: flex;
@@ -354,7 +356,7 @@ p {
     top: 0;
     left: 0;
     height: 100%;
-    background-color: rgb(117, 105, 224);
+    background-color: #064458;
     transform: translateX(-100%);
     transition: var(--transition);
   }
@@ -363,13 +365,13 @@ p {
   }
   .link {
     display: block;
-    color: black;
+    color: rgb(211, 225, 240);
     padding: 2rem 0;
     text-align: center;
     transition: var(--transition);
   }
   .link:hover {
-    background-color: rgb(154, 146, 228);
+    background-color: #228db1;
   }
   /* end of the navbar max  992*/
   /* start of the hero */
@@ -382,7 +384,9 @@ p {
     align-items: center;
     flex-direction: column;
   }
-  .home-contentwrapper > h3 {
+  .home-contentwrapper > h4 {
+    line-height: 30px;
+    word-spacing: 3px;
     text-align: center;
     width: 25rem;
     padding: 2rem;
@@ -399,9 +403,10 @@ p {
   /* start of about section */
 
   .about-container {
+    padding-top: 25px;
     margin: 0 auto;
     max-width: var(--max-width);
-    background-color: rgb(117, 105, 224);
+    background-color: #064458;
     width: 90vw;
     border-radius: 10px;
     text-align: center;
@@ -444,12 +449,14 @@ p {
     padding: 60px;
   }
   .post-title {
+    padding-top: 15px;
     font-size: 15px;
   }
   .post-intro {
     font-size: 12px;
   }
   .projectImage {
+    object-fit: cover;
     margin: 0 auto;
     width: 400px;
     height: 400px;
@@ -499,7 +506,7 @@ p {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(117, 105, 224);
+    background-color: #064458;
     border: none;
   }
   /* end of the form sections */
