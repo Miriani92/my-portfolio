@@ -4,7 +4,7 @@ import Project from "./Project";
 
 const Projects = () => {
   return (
-    <section className="main-section">
+    <section className="main-section" id="Projects">
       <div className="main-container">
         <h4 style={{ textAlign: "center", paddingTop: "60px" }}>My projects</h4>
         <div className="post-wrapper">

@@ -5,7 +5,7 @@ import searchImage from "../images/search.jpg";
 
 const About = () => {
   return (
-    <article className="about-container">
+    <article className="about-container" id="About">
       <div className="about-wrapper">
         <div classname="more-wrapper">
           <h4>more about me</h4>

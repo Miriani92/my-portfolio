@@ -2,6 +2,7 @@ import React from "react";
 import { links } from "./Data";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -25,9 +26,19 @@ const Navbar = () => {
           {links.map((link) => {
             const { id, url, text } = link;
             return (
-              <a className="link" key={id} href={url} onClick={navToggle}>
+              <Link
+                className="link"
+                key={id}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to={text}
+                href={url}
+                onClick={navToggle}
+              >
                 {text}
-              </a>
+              </Link>
             );
           })}
         </ul>

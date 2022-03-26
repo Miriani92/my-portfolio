@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   const email = "https://formsubmit.co/mirian.tsintsadze1992@gmail.com";
   return (
-    <section className="section-container">
+    <section className="section-container" id="Contact">
       <div className="main-container">
         <h4 style={{ textAlign: "center", padding: "20px" }}>Get in Touch</h4>
 
