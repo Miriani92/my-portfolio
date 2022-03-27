@@ -28,19 +28,18 @@ export const posts = [
     id: 1,
     img: img1,
     title: "Portfolio",
-    link: "#",
+    link: "https://github.com/Miriani92/my-portfolio",
   },
   {
     id: 2,
     img: img2,
     title: "Beautyline",
-
-    link: "#",
+    link: "https://github.com/Miriani92/Beautyline",
   },
   {
     id: 3,
     img: img3,
     title: "Food Order App",
-    link: "#",
+    link: "https://github.com/Miriani92/food-order-app",
   },
 ];

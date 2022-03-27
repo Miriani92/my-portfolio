@@ -6,7 +6,7 @@ const Project = ({ img, title, text, link }) => {
       <img className="projectImage" src={img} alt="image" />
       <div className="post-preview">
         <h4 className="post-title">{title}</h4>
-        <a href={link} className="post-seemore">
+        <a href={link} className="post-seemore" target="_blank">
           See More
         </a>
       </div>

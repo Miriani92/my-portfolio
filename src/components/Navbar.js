@@ -8,7 +8,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
 
   const navToggle = () => {
-    setNavbar(!navbar);
+    setNavbar((prevstate) => !prevstate);
   };
 
   return (
