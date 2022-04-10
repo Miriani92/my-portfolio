@@ -191,7 +191,6 @@ p {
     max-width: var(--max-width);
     background-color: #064458;
     width: 90vw;
-    border-radius: 10px;
   }
   .about-wrapper {
     display: grid;
