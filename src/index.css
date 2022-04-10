@@ -119,6 +119,9 @@ p {
 
 @media (min-width: 992px) {
   .nav-container {
+    width: 100%;
+    position: fixed;
+    margin-top: 0;
     display: flex;
     justify-content: space-around;
     background-color: #064458;
