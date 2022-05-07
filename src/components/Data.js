@@ -1,4 +1,4 @@
-import img1 from "../images/portfolio.jpg";
+import img1 from "../images/taiptrainer.jpg";
 import img2 from "../images/beautyline.jpg";
 import img3 from "../images/country.jpg";
 export const links = [
@@ -27,8 +27,8 @@ export const posts = [
   {
     id: 1,
     img: img1,
-    title: "Portfolio",
-    link: "https://miriani.netlify.app",
+    title: "Taipetrainer",
+    link: "https://learntype.netlify.app",
   },
   {
     id: 2,
